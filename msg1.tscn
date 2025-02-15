@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlcvqnvwwkgyi"]
+
+[ext_resource type="Script" path="res://window.gd" id="1_byn6e"]
+
+[node name="msg" type="Window"]
+transparent_bg = true
+initial_position = 1
+size = Vector2i(1152, 640)
+borderless = true
+transparent = true
+script = ExtResource("1_byn6e")
+
+[node name="Camera2D" type="Camera2D" parent="."]

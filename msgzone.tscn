@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://ccletphl15olg"]
+
+[node name="msgzone" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2

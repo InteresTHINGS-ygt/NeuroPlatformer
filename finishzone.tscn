@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cw62m3bejfx3e"]
+
+[node name="finishzone" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2

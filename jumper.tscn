@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://24bbide8hdlv"]
+
+[ext_resource type="Texture2D" uid="uid://bwmfrgiqx6ntb" path="res://assets2.png" id="1_4mdk8"]
+[ext_resource type="Script" path="res://jumper.gd" id="1_nugyy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mi66h"]
+size = Vector2(12.87, 2)
+
+[node name="Jumper" type="Node2D"]
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_mask = 2
+script = ExtResource("1_nugyy")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D"]
+texture = ExtResource("1_4mdk8")
+region_enabled = true
+region_rect = Rect2(100, 54, 11, 3)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-8.9407e-08, 0)
+scale = Vector2(0.777, 1)
+shape = SubResource("RectangleShape2D_mi66h")
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
+[connection signal="body_exited" from="Area2D" to="Area2D" method="_on_body_exited"]

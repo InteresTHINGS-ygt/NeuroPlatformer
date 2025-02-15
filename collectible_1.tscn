@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://do8aqcbsb64pr"]
+
+[ext_resource type="Texture2D" uid="uid://bwmfrgiqx6ntb" path="res://assets2.png" id="1_ag0p1"]
+[ext_resource type="Script" path="res://collect.gd" id="2_csgih"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0g0ca"]
+radius = 5.0
+
+[node name="Collectible1" type="Node2D"]
+
+[node name="COLLECT" type="Area2D" parent="."]
+script = ExtResource("2_csgih")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="COLLECT"]
+shape = SubResource("CircleShape2D_0g0ca")
+
+[node name="Sprite2D" type="Sprite2D" parent="COLLECT"]
+texture = ExtResource("1_ag0p1")
+region_enabled = true
+region_rect = Rect2(64, 48, 16, 16)
+
+[connection signal="body_entered" from="COLLECT" to="COLLECT" method="_on_body_entered"]

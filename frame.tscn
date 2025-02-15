@@ -1,0 +1,149 @@
+[gd_scene load_steps=36 format=3 uid="uid://fnvvh3s588u6"]
+
+[ext_resource type="Texture2D" uid="uid://djoa7fquxpn1a" path="res://messages/bazal.png" id="1_jtwuq"]
+[ext_resource type="Texture2D" uid="uid://bkgp2jvciunfy" path="res://messages/BOSS.png" id="2_0sufx"]
+[ext_resource type="Texture2D" uid="uid://dx1ly68vadwdr" path="res://messages/cerebellum.png" id="3_o774f"]
+[ext_resource type="Texture2D" uid="uid://bgxk463u64k3d" path="res://messages/diensefalon.png" id="4_4cdpi"]
+[ext_resource type="Texture2D" uid="uid://bfhv0nj0y7oaq" path="res://messages/gelişim.png" id="5_l5k3m"]
+[ext_resource type="Texture2D" uid="uid://b1n21lty64nuq" path="res://messages/gribeyaz.png" id="6_3sjpm"]
+[ext_resource type="Texture2D" uid="uid://bbh73lm01ainc" path="res://messages/impulsnasıliletilir.png" id="7_5o3d4"]
+[ext_resource type="Texture2D" uid="uid://ccfig60un55g7" path="res://messages/kesişim.png" id="8_ee1oq"]
+[ext_resource type="Texture2D" uid="uid://dlxm8vajfqqsb" path="res://messages/kraniyal sinirler.png" id="9_7o6ss"]
+[ext_resource type="Texture2D" uid="uid://brn2crxgq2rll" path="res://messages/lifler.png" id="10_noevm"]
+[ext_resource type="Texture2D" uid="uid://dawofa3xwif62" path="res://messages/meninjeal.png" id="11_cwq7o"]
+[ext_resource type="Texture2D" uid="uid://dr505qpxv3cd6" path="res://messages/merkezi.png" id="12_yxxfa"]
+[ext_resource type="Texture2D" uid="uid://oyt5fy37t4x5" path="res://messages/nörontürleri.png" id="13_1ccx0"]
+[ext_resource type="Texture2D" uid="uid://bcbgrnn8neylp" path="res://messages/serebrovas.png" id="14_lj2jb"]
+[ext_resource type="Texture2D" uid="uid://dmuoyfxhyxx3x" path="res://messages/temelkavramlar.png" id="15_kdwvt"]
+[ext_resource type="Texture2D" uid="uid://cnhqcg83rw4s4" path="res://messages/yollar.png" id="16_kdggs"]
+[ext_resource type="Texture2D" uid="uid://cr4xentmlt5uc" path="res://messagess2/broca.png" id="17_dadun"]
+[ext_resource type="Texture2D" uid="uid://ba6reh4wdgewe" path="res://messagess2/cerebellum.png" id="18_3bua0"]
+[ext_resource type="Texture2D" uid="uid://dhgsp5hv7jii7" path="res://messagess2/fusiform.png" id="19_vifwt"]
+[ext_resource type="Texture2D" uid="uid://frhcyj4u70pj" path="res://messagess2/gyrusangularis.png" id="20_kj4to"]
+[ext_resource type="Texture2D" uid="uid://wngppw2rklxa" path="res://messagess2/hafıza.png" id="21_s286h"]
+[ext_resource type="Texture2D" uid="uid://sqqkd1kx0kgl" path="res://messagess2/ilişkilendirmealanı.png" id="22_8blrh"]
+[ext_resource type="Texture2D" uid="uid://b8gdlhb2r2uv2" path="res://messagess2/karar.png" id="23_5vyry"]
+[ext_resource type="Texture2D" uid="uid://wevsgltdymnk" path="res://messagess2/kişilik.png" id="24_tjxnx"]
+[ext_resource type="Texture2D" uid="uid://cckg4h1ytkgr8" path="res://messagess2/limbik.png" id="25_jnd11"]
+[ext_resource type="Texture2D" uid="uid://bhc8hbrnxw4sb" path="res://messagess2/motor.png" id="26_rwisv"]
+[ext_resource type="Texture2D" uid="uid://cbaddqaqpx0ta" path="res://messagess2/prefrontal.png" id="27_l338l"]
+[ext_resource type="Texture2D" uid="uid://bb27ijselb0fg" path="res://messagess2/premotor.png" id="28_o7pbd"]
+[ext_resource type="Texture2D" uid="uid://clpuaumwfjkak" path="res://messagess2/primerduyusal.png" id="29_o5kfr"]
+[ext_resource type="Texture2D" uid="uid://cbcnxlo60faau" path="res://messagess2/primergörme.png" id="30_ehwyh"]
+[ext_resource type="Texture2D" uid="uid://kdmqnj6fobg2" path="res://messagess2/problem.png" id="31_jifek"]
+[ext_resource type="Texture2D" uid="uid://cu852q022nhjh" path="res://messagess2/sap.png" id="32_jilhs"]
+[ext_resource type="Texture2D" uid="uid://b244rqfd7rhx7" path="res://messagess2/sekondergörme.png" id="33_e4ax0"]
+[ext_resource type="Texture2D" uid="uid://4mk8kgpf2vor" path="res://messagess2/temporallob.png" id="34_j0ir7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4ht7q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_jtwuq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0sufx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_o774f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_4cdpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_l5k3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_3sjpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_5o3d4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ee1oq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_7o6ss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_noevm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_cwq7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_yxxfa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1ccx0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_lj2jb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_kdwvt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_kdggs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_dadun")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_3bua0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_vifwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_kj4to")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_s286h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_8blrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_5vyry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_tjxnx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_jnd11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_rwisv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_l338l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_o7pbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_o5kfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ehwyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_jifek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_jilhs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_e4ax0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_j0ir7")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="frame" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_4ht7q")
